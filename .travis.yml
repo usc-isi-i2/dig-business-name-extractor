@@ -1,0 +1,8 @@
+language: python
+python:
+- '2.7'
+install: pip install -r requirements.txt
+script: python -m unittest discover
+notifications:
+  slack:
+    secure: UMqLETxyC/FXNMEKCu/E4tm+0kvqREDYi/Z0fcsIh5MV098obWOUHg0k6ibrAggWuNeA0SHJf5xKB1LK5IDiY8gfUhb181aCC6cB5zIWeAwNXUdn/6H/eGHBogIyT6Ncr4QeTJ6PbDOIJaYxUcgtDZSM5Hdc4tSZQyWF+Ja+JOh7k9C3IHIV6FVCZ66q3IeAktrXLoA27Es2w/bVODthzXXRwuZcWf0zcXzS8KJlGgTtjECYDumWoTov5jm8krZPEXXgaYZjBQiaZOvpSPqx5pbXqAp/s3IW/k/hhkzno//jeeNHy70bkeC007YyVympWdBJ0mDu8+x+qL/qhU5MNHm9BtFbeC1i2kTXQxPRZaTZtx4ol/W7yE/WZQ/o4CJ1zq5Egqz96PqybqoPiEPPceXX6+VNoAR0RE/vyUn0R2cJ0mjdwvT0v5R/baOS8y4k6HOBtAUmB0vZE/NKgbbEG6pFROk4VbKY0WGJTWUNzqbhh9LX7sm97Yik2fxGIGfhmDhbCyjkUZN6A6/AmpAOSt/uD31YRTHFKlXnps1PpGzRBpxzMC5subHFZaw3pwqKDPOl7dGPXq1eFrtv/WQKzKKArOUB3/+d/nuF7kIdt4SqCupljqM7ExdMM/xZBLCjhg11h+vn0Q6q60LcknF0G8E5oz6L68LR4ZsMJ+3oM1c=
